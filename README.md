@@ -8,6 +8,7 @@ Part Number: MA330048
 ![image](https://www.microchip.com/content/dam/mchp/mrt-dam/devtools/3176-190730-mcu16-ma330049-4.jpg) 
 ## DIGITAL POWER DEVELOPMENT BOARD
 Part Number: DM330029
+
 ![image](https://www.microchip.com/content/dam/mchp/mrt-dam/devtools/2931-190226-mcu16-dm330029-copy.jpg) 
 - - -
 
@@ -36,6 +37,9 @@ Alternative Controller Plug-In Module:
 - [MPLAB® X IDE v6.0](https://www.microchip.com/mplabx-ide-windows-installer)
 - [MPLAB XC16 Compiler v2.0](https://www.microchip.com/mplabxc16windows)
 - [MPLAB Device Family Pack (DFP) v1.8.224](https://microchipsupport.force.com/s/article/Choose-DFP--Device-Family-Pack--in-MPLAB-X-IDE)
+- [MPLAB Code Configurator (MCC) v5.1.17](https://www.microchip.com/mcc)
+    - MPLAB Code Configurator (MCC) - Core v5.4.11
+    - MPLAB Code Configurator (MCC) - Device Libraries dsPIC33 v1.171.1
 
 ## Hardware Used
 
