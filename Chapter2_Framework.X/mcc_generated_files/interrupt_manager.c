@@ -52,4 +52,22 @@
 */
 void INTERRUPT_Initialize (void)
 {
+    //    TI: Timer 1
+    //    Priority: 1
+        IPC0bits.T1IP = 1;
+    //    ADCAN17: ADC AN17 Convert Done
+    //    Priority: 2
+        IPC27bits.ADCAN17IP = 2;
+    //    ADCMP0: ADC Digital Comparator 0
+    //    Priority: 3
+        IPC29bits.ADCMP0IP = 3;
+    //    ADCAN0: ADC AN0 Convert Done
+    //    Priority: 5
+        IPC22bits.ADCAN0IP = 5;
+    //    ADCAN1: ADC AN1 Convert Done
+    //    Priority: 6
+        IPC23bits.ADCAN1IP = 6;
+    //    ADCAN2: ADC AN2 Convert Done
+    //    Priority: 4
+        IPC23bits.ADCAN2IP = 4;
 }
