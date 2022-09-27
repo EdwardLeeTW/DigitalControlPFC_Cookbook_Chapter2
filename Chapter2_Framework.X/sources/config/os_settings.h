@@ -37,8 +37,8 @@
 //
 //=======================================================================================================
 
-#ifndef _PROJECT_SETTINGS_H_
-#define	_PROJECT_SETTINGS_H_
+#ifndef _OS_SETTINGS_H_
+#define	_OS_SETTINGS_H_
 
 //=======================================================================================================
 // !!!!important: define mode of operation !!!
@@ -55,14 +55,14 @@
 // additional ?phase current equalizer? state machine is taking care of current balancing. 
 //=======================================================================================================
 // define either POWER_STAGE_CONFIG_INTERLEAVED or POWER_STAGE_CONFIG_PHASE_A_ONLY
+
 #define POWER_STAGE_CONFIG_INTERLEAVED
 #undef POWER_STAGE_CONFIG_PHASE_A_ONLY
 
 //=======================================================================================================
 //sometimes the software runs on different hardware versions, so we have defines for different board settings
 
-#define PROJECT_SETTINGS_BOARD_DPPIM_CK 1       // dsPic33CK single core on DPPIM module
-
+#define PROJECT_SETTINGS_BOARD_DPPIM_CK    1    // dsPic33CK single core on DPPIM module
 #define PROJECT_SETTINGS_BOARD_EXPANDER_CK 0    // BOARD_EXPANDER_CK single core dsPic33CK for testing basic stuff
 
 //=======================================================================================================
@@ -81,24 +81,24 @@
 //
 //  Decide if you want to use OS_Systime in your project
 //-------------------------------------------------------------------------------------------------------
-    #define OS_USE_SYSTIME 0
+#define OS_USE_SYSTIME 0
 //=======================================================================================================
 
 //=======================================================================================================
 //  OS Settings for OS_Timer
 //-------------------------------------------------------------------------------------------------------
-    #define OS_TIMER_NUMBER_OF_TIMERS       0
+#define OS_TIMER_NUMBER_OF_TIMERS       0
 //-------------------------------------------------------------------------------------------------------
 //  Application specific Timers:
-    #define OS_TIMER_COUNTDOWN_COILSWITCH   0
+#define OS_TIMER_COUNTDOWN_COILSWITCH   0
 //=======================================================================================================
 
 //=======================================================================================================
 // USE MCC driver layer if available
 //-------------------------------------------------------------------------------------------------------
-#define OS_USE_MCC_TIMER1 1
+#define OS_USE_MCC_TIMER1   1
 #define OS_USE_MCC_WATCHDOG 0
-#define OS_USE_MCC_RESET 0
+#define OS_USE_MCC_RESET    0
 //=======================================================================================================
 
 //=======================================================================================================
@@ -114,5 +114,5 @@
 #endif 
 
 
-#endif	//_PROJECT_SETTINGS_H_
+#endif	//_OS_SETTINGS_H_
 
