@@ -46,6 +46,7 @@
   Section: Included Files
 */
 #include "mcc_generated_files/system.h"
+#include "sources/os/os.h"
 
 /*
                          Main application
@@ -54,6 +55,11 @@ int main(void)
 {
     // initialize the device
     SYSTEM_Initialize();
+    
+    // OS
+    OS_Init();
+    OS_Scheduler_RunForever();
+    
     while (1)
     {
         // Add your application code
