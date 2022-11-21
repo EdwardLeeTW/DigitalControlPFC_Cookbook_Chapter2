@@ -3,16 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/sources/config/os_settings.h</file>
             <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/sources/os/os_sys_time.c</file>
-            <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/sources/os/os_timer.c</file>
-            <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/main.c</file>
-            <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/sources/os/os_scheduler_100us.c</file>
-            <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/sources/os/os.h</file>
             <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/sources/os/os.c</file>
+            <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/sources/os/os_timer.c</file>
             <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/sources/os/os_scheduler_1ms.c</file>
-            <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/main_tasks.c</file>
+            <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/sources/os/os_scheduler_100us.c</file>
             <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/mcc_generated_files/pin_manager.h</file>
+            <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/main.c</file>
+            <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/sources/os/os.h</file>
+            <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/main_tasks.c</file>
+            <file>file:/Users/edwardlee/GitHub/DigitalControlPFC_Cookbook_Chapter2/Chapter2_Framework.X/sources/config/os_settings.h</file>
         </group>
     </open-files>
 </project-private>
