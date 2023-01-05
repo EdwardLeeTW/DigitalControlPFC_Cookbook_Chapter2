@@ -16,7 +16,10 @@ Part Number: DM330029
 
 dsPIC33CK Framework for Power Application
 
-This is an example code of dsPIC33CK framework and is used for my book "Full Digital Power Control Cookbook-PFC".
+This is an example code of dsPIC33CK framework and would be also used for my book "Full Digital Power Control Cookbook-PFC".
+- v1.0
+  First released code base.
+  
 - - -
 
 ## Related Documentation
