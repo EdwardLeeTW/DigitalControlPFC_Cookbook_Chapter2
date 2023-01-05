@@ -1,4 +1,4 @@
-/**
+    /**
   Generated main.c file from MPLAB Code Configurator
 
   @Company
@@ -47,6 +47,7 @@
 */
 #include "mcc_generated_files/system.h"
 #include "sources/os/os.h"
+#include "mail_box.h"
 
 /*
                          Main application

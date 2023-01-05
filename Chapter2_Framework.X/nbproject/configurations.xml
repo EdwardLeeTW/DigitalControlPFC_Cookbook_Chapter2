@@ -30,6 +30,7 @@
         <itemPath>sources/os/os_scheduler.h</itemPath>
       </logicalFolder>
       <itemPath>sources/config/os_settings.h</itemPath>
+      <itemPath>mail_box.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
